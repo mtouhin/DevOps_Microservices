@@ -9,7 +9,7 @@
 dockerpath=mtouhin/micro
 # Step 2:  
 # Authenticate & tag
-docker login --username=mtouhin --email=mtouhin@yahoo.com
+docker login --username=mtouhin
 docker tag micro $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
